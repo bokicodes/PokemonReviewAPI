@@ -6,8 +6,7 @@ public interface IOwnerRepository
 {
     ICollection<Owner> GetOwners();    
     Owner GetOwner(int ownerId);
-    ICollection<Owner> GetOwnerOfAPokemon(int pokeId); //samo radi implementacije, nece da pravimo http endpoint za to, kaze u praksi tesko da bi nekom trebalo ovo
-                                                            //ako ces da stavljas na github msm da treba ove metode koje nisu za endpoint da prebacis u vezbu i obrises odavde
+    ICollection<Owner> GetOwnerOfAPokemon(int pokeId); 
     ICollection<Pokemon> GetPokemonByOwner(int ownerId); 
     bool OwnerExists(int ownerId);
     bool CreateOwner(Owner owner);

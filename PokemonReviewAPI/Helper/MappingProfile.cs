@@ -16,7 +16,7 @@ namespace PokemonReviewAPI.Helper
             CreateMap<Review, ReviewDto>();
             CreateMap<Reviewer, ReviewerDto>();
 
-            // KlasaDto pa Klasa je uglavnom za POST
+            // KlasaDto pa Klasa je uglavnom za POST, PUT
             CreateMap<CategoryDto, Category>();
             CreateMap<CountryDto, Country>();
             CreateMap<OwnerDto, Owner>();
